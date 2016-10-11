@@ -16,6 +16,9 @@ namespace Sandbox
             // tilføjet og testet metoden FourNumbers, som returnerer den højeste værdi af 4 tal
             Console.WriteLine(myMysticNumbers.FourNumbers(15, 20, 25, 40));
 
+            // laver en midlertidig variabel som senere kan skrives ud vha. console.WriteLine metoden
+            int highestOfThreeNum = myMysticNumbers.myThreeNumbers(10, 20, 30);
+            Console.WriteLine(highestOfThreeNum);
 
 
 

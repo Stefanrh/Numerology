@@ -7,11 +7,7 @@ namespace Sandbox
 {
     class MysticNumbers
     {
-        public MysticNumbers()
-        {
-
-        }
-
+      
         public int ThreeNumbers(int a, int b, int c)
         {
             int result;
@@ -64,6 +60,14 @@ namespace Sandbox
             int first = TwoNumbers(a, b);
             int second = TwoNumbers(c, d);
             int result = TwoNumbers(first, second);
+            return result;
+        }
+
+        public int myThreeNumbers(int a, int b, int c)
+        {
+            int first = TwoNumbers(a, b);
+            int result = TwoNumbers(first, c);
+
             return result;
         }
     }
