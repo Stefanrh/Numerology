@@ -7,6 +7,11 @@ namespace Sandbox
 {
     class MysticNumbers
     {
+        public MysticNumbers()
+        {
+
+        }
+
         public int ThreeNumbers(int a, int b, int c)
         {
             int result;
@@ -29,6 +34,29 @@ namespace Sandbox
             }
 
             return result;
+        }
+
+        /// <summary>
+        /// Returnerer det højeste tal af 2 tal. (omskrevet ThreeNumbers metode)
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
+        public int TwoNumbers(int a, int b)
+        {
+            int result;
+            if (a > b)
+            {
+                result = a;
+                
+            }
+            else
+            {
+                result = b;
+            }
+
+            return result;
+            
         }
     }
 }
