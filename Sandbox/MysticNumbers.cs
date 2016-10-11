@@ -58,5 +58,13 @@ namespace Sandbox
             return result;
             
         }
+
+        public int FourNumbers(int a, int b, int c, int d)
+        {
+            int first = TwoNumbers(a, b);
+            int second = TwoNumbers(c, d);
+            int result = TwoNumbers(first, second);
+            return result;
+        }
     }
 }

@@ -13,6 +13,9 @@ namespace Sandbox
             Console.WriteLine(myMysticNumbers.TwoNumbers(5, 3));
             Console.WriteLine(myMysticNumbers.TwoNumbers(2, 10));
 
+            // tilføjet og testet metoden FourNumbers, som returnerer den højeste værdi af 4 tal
+            Console.WriteLine(myMysticNumbers.FourNumbers(15, 20, 25, 40));
+
 
 
 
